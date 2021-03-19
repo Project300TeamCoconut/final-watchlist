@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:background="@drawable/darktexture"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginBottom="0sp"
+        android:src="@mipmap/ic_launcher"></ImageView>
+
+    <TextView
+        android:id="@+id/userID"
+        android:layout_width="372dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8sp"
+        android:layout_marginBottom="6sp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"></TextView>
+
+    <Button
+        android:id="@+id/clipboard"
+        android:layout_width="104dp"
+        android:layout_height="30dp"
+        android:background="@drawable/roundedbtn"
+        android:onClick="copyToClipboard"
+        android:layout_marginBottom="6dp"
+        android:text="Share ID" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="377dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="6sp"
+        android:background="#FFFFFF"
+        android:hint="name"></EditText>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="change name"></Button>
+
+    <Button
+        android:id="@+id/deleteBTN"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Delete Account" />
+
+    <Button
+        android:id="@+id/LogoutBTN"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Log Out" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="back to matching"></Button>
+
+
+</LinearLayout>
